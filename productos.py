@@ -30,7 +30,6 @@ def eliminar_producto(id):
     conexion.commit()
     conexion.close()
 
-# Interfaz de Streamlit
 st.title("Mantenedor de Productos")
 
 opcion = st.selectbox("Selecciona una opción", ["Crear", "Leer", "Actualizar", "Eliminar"])

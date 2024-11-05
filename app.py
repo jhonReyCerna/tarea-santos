@@ -1,9 +1,8 @@
-# app.py
+
 import streamlit as st
 import pandas as pd
 from config import obtener_conexion
 
-# Funciones CRUD para Usuarios
 def crear_usuario(nombre, email, telefono):
     conexion = obtener_conexion()
     cursor = conexion.cursor()
