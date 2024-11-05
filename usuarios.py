@@ -1,4 +1,4 @@
-# usuarios.py
+
 import streamlit as st
 import pandas as pd
 from config import obtener_conexion
@@ -30,7 +30,7 @@ def eliminar_usuario(id):
     conexion.commit()
     conexion.close()
 
-# Interfaz de Streamlit
+
 st.title("Mantenedor de Usuarios")
 
 opcion = st.selectbox("Selecciona una opción", ["Crear", "Leer", "Actualizar", "Eliminar"])

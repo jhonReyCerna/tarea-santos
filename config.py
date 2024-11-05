@@ -1,4 +1,4 @@
-# config.py
+
 import pyodbc
 
 def obtener_conexion():

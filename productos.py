@@ -1,4 +1,4 @@
-# productos.py
+
 import streamlit as st
 import pandas as pd
 from config import obtener_conexion
